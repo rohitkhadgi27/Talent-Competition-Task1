@@ -35,7 +35,6 @@ export class GeneralModal extends React.Component {
                         <br />
                         {secondLink}                        
                     </div>
-                    
                 </Modal.Content>
             </Modal>
         )

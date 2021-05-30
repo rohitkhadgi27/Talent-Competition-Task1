@@ -337,6 +337,8 @@ namespace Talent.Services.Profile.Controllers
             }
         }
 
+
+
         [HttpPost("saveEmployerProfile")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
         public async Task<IActionResult> SaveEmployerProfile([FromBody] EmployerProfileViewModel employer)

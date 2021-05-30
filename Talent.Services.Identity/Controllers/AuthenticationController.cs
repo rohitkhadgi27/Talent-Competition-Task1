@@ -83,7 +83,6 @@ namespace Talent.Services.Identity.Controllers
             }
         }
 
-      
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public IActionResult Get()
