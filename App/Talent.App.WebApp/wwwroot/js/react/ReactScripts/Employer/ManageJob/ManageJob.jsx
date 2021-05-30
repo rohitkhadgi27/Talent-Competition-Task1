@@ -77,7 +77,7 @@ export default class ManageJob extends React.Component {
     render() {
         return (
             <BodyWrapper reload={this.init} loaderData={this.state.loaderData}>
-               <div className ="ui container">Your table goes here</div>
+               <div className ="ui container"><h1>list of Jobs</h1></div>
             </BodyWrapper>
         )
     }
