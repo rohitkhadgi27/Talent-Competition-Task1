@@ -5,7 +5,9 @@ import LoggedInBanner from '../../Layout/Banner/LoggedInBanner.jsx';
 import { LoggedInNavigation } from '../../Layout/LoggedInNavigation.jsx';
 import { JobSummaryCard } from './JobSummaryCard.jsx';
 import { BodyWrapper, loaderData } from '../../Layout/BodyWrapper.jsx';
-import { Pagination, Icon, Dropdown, Checkbox, Accordion, Form, Segment } from 'semantic-ui-react';
+import { Pagination, Icon, Dropdown, Checkbox, Accordion, Form, Segment,  Button, Card, Image, Container} from 'semantic-ui-react';
+import { useState } from 'react';
+import JobPost from './JobPost.jsx';
 
 export default class ManageJob extends React.Component {
     constructor(props) {
@@ -17,7 +19,7 @@ export default class ManageJob extends React.Component {
         this.state = {
             loadJobs: [],
             loaderData: loader,
-            activePage: 1,
+            activePage: 2,
             sortBy: {
                 date: "desc"
             },
@@ -37,6 +39,7 @@ export default class ManageJob extends React.Component {
         //your functions go here
     };
 
+
     init() {
         let loaderData = TalentUtil.deepCopy(this.state.loaderData)
         loaderData.isLoading = false;
@@ -52,14 +55,43 @@ export default class ManageJob extends React.Component {
 
     componentDidMount() {
         this.init();
+        this.loadData();
     };
 
-    loadData(callback) {
+    loadData() {
         var link = 'http://localhost:51689/listing/listing/getSortedEmployerJobs';
         var cookies = Cookies.get('talentAuthToken');
-       // your ajax call and other logic goes here
-    }
 
+       //your ajax call and other logic goes here
+       $.ajax({
+            url: link,
+            headers: {
+                'Authorization': 'Bearer ' + cookies,
+                'Content-Type': 'application/json'
+            },
+            type: "GET",
+            // data: {
+            //     activePage: this.state.activePage,
+            //     sortByDate: this.state.sortBy.date,
+            //     showActive: this.state.showActive,
+            //     showClosed: this.state.showClosed,
+            //     showDraft: this.state.showDraft,
+            //     showExpired: this.state.showExpired,
+            //     showUnexpired: this.state.showUnexpired
+            // }
+            // ,
+            contentType: "application/json",
+            dataType: "json",
+            success: function (res) {    
+                console.log("Manage Jobs = "+JSON.stringify(res, null, 2))   
+                this.setState({
+                    loadJobs: res.myJobs
+                }); 
+            }.bind(this),
+            error: function (res) {
+            }.bind(this)
+        })
+    }
     loadNewData(data) {
         var loader = this.state.loaderData;
         loader.isLoading = true;
@@ -74,11 +106,30 @@ export default class ManageJob extends React.Component {
         });
     }
 
+
     render() {
         return (
             <BodyWrapper reload={this.init} loaderData={this.state.loaderData}>
-               <div className ="ui container"><h1>list of Jobs</h1></div>
+               <div className ="ui container"><h1>List of Jobs</h1>
+                    <JobPost posts={this.state.loadJobs}/>
+               </div>
             </BodyWrapper>
         )
     }
 }
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
