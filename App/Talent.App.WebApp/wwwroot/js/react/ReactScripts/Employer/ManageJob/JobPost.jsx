@@ -1,6 +1,5 @@
 import React from 'react';
-import { Pagination, Icon, Dropdown, Checkbox, Accordion, Form, Segment,  Button, Card, Image, Container} from 'semantic-ui-react';
-import { useState } from 'react';
+import {  Icon, Button, Card, Container} from 'semantic-ui-react';
 
 const JobPost = (props) => {
     const {posts} = props;
@@ -8,7 +7,7 @@ const JobPost = (props) => {
     return(
         <Card.Group  itemsPerRow={2} style={{marginBottom: "20px"}}>
             {posts.map(p => 
-                <Card>
+                <Card key={p.id}>
                     <Card.Content>
                         <Card.Header>{p.title}</Card.Header>
                         <Card.Meta>{p.jobDetails.location.city}, {p.jobDetails.location.country}</Card.Meta>
