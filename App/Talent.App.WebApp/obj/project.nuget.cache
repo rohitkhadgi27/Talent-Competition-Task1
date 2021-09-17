@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4rNvN9nsNfT021ppB1diJS49/dXAHrEOdkwDxSVXbMyPFM8xS9QEY41tAj0UIKS58GqwouiqIG6Ty2fFBKnlA==",
+  "dgSpecHash": "5CJqJ3MGEipuughPA7KXHdJO/RlcbxUCItEsiD24UmioLbo+T3Si2Up8BVvax3/nfkrbAYiav+PbxdsY50vt8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rocke\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\rocke\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",

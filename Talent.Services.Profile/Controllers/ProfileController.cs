@@ -337,6 +337,12 @@ namespace Talent.Services.Profile.Controllers
             }
         }
 
+        [HttpGet("test")]
+        public IActionResult GetTest()
+        {
+            return Content("test");
+        }
+
 
 
         [HttpPost("saveEmployerProfile")]

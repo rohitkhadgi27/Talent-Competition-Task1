@@ -56,3 +56,4 @@ C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Identity\obj\
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.dll
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.pdb
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.genruntimeconfig.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
