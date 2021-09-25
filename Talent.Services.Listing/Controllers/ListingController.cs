@@ -201,10 +201,10 @@ namespace Talent.Services.Listing.Controllers
                 }
 
                 //TODO Draft not implemented yet
-                /*   if (!showDraft)
-                 {
+                if (!showDraft)
+                {
 
-                 }*/
+                }
 
 
                 if (sortbyDate == "desc")
