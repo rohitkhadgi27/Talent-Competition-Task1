@@ -23,7 +23,7 @@ class ClientProfileModal extends React.Component {
         if (id != undefined) {
             var cookies = Cookies.get('talentAuthToken');
             $.ajax({
-                url: 'http://talent-competition-profile.azurewebsites.net/profile/getEmployerProfile?id=' + id + '&role=' + 'employer',
+                url: 'https://talent-competition-profile.azurewebsites.net/profile/getEmployerProfile?id=' + id + '&role=' + 'employer',
                 headers: {
                     'Authorization': 'Bearer ' + cookies,
                     'Content-Type': 'application/json'

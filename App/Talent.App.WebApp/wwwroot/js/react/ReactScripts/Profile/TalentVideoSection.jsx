@@ -49,7 +49,7 @@ export class TalentVideoSection extends Component {
             <VideoUpload
                 videoName={this.state.profileData.videoName}
                 updateProfileData={this.updateForComponentId}
-                saveVideoUrl={'http://talent-competition-profile.azurewebsites.net/profile/profile/updateTalentVideo'}
+                saveVideoUrl={'https://talent-competition-profile.azurewebsites.net/profile/profile/updateTalentVideo'}
             />
         )
         uploaders.push(<VideoUpload videoName='' updateProfileData={this.updateForComponentId} />)
