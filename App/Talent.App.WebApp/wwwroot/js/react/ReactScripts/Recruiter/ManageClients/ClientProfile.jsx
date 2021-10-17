@@ -51,7 +51,7 @@ class ClientProfileModal extends React.Component {
     saveData() {
         var cookies = Cookies.get('talentAuthToken');
         $.ajax({
-            url: 'http://talent-competition-profile.azurewebsites.net/profile/profile/saveClientProfile',
+            url: 'https://talent-competition-profile.azurewebsites.net/profile/profile/saveClientProfile',
             headers: {
                 'Authorization': 'Bearer ' + cookies,
                 'Content-Type': 'application/json'

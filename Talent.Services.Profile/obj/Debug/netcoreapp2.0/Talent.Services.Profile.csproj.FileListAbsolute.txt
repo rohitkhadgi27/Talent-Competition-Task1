@@ -56,3 +56,22 @@ C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Profile\obj\D
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.dll
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.pdb
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.genruntimeconfig.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\appsettings.docker.Development.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\appsettings.docker.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Services.Profile.deps.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Services.Profile.runtimeconfig.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Services.Profile.runtimeconfig.dev.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Services.Profile.dll
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Services.Profile.pdb
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.csprojAssemblyReference.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.AssemblyInfoInputs.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.AssemblyInfo.cs
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.csproj.CoreCompileInputs.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.csproj.CopyComplete
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.dll
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.pdb
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Services.Profile\obj\Debug\netcoreapp2.0\Talent.Services.Profile.genruntimeconfig.cache

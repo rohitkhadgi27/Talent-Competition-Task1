@@ -12,7 +12,7 @@ export class JobSummaryCard extends React.Component {
     selectJob(id) {
         var cookies = Cookies.get('talentAuthToken');
         $.ajax({
-            url: 'https://talent-competition-talent.azurewebsites.net/listing/listing/closeJob',
+            url: 'https://talent-services-talent.azurewebsites.net/listing/listing/closeJob',
             headers: {
                 'Authorization': 'Bearer ' + cookies,
                 'Content-Type': 'application/json'
@@ -73,15 +73,7 @@ export class JobSummaryCard extends React.Component {
         return (
             <div className="card manage-job">
                 <div className="content">
-                    <div className="header">{data.title} </div>
-                    <Popup trigger={
-                        <a className="ui black right ribbon label">
-                            <i className="user icon"></i>{data.noOfSuggestions}
-                        </a>
-                    }>
-                        <span>Suggested Talents</span>
-                    </Popup>
-
+                    <div className="header">{data.title} </div>           
                     <div className="meta"> {data.location.city}, {data.location.country}</div>
 
                     <div className="description job-summary">

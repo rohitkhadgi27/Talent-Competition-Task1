@@ -1,4 +1,4 @@
-﻿import React from 'react'
+import React from 'react'
 import { SingleInput } from '../Form/SingleInput.jsx'
 import { Select } from '../Form/Select.jsx'
 import { CheckBox } from '../Form/CheckBox.jsx'
@@ -68,7 +68,7 @@ export class EmailVerification extends React.Component {
     verifyEmail() {
         this.setState({ isLoading: true });
         $.ajax({
-            url: 'http://talent-competition-identity.azurewebsites.net/authentication/authentication/resendVerificationLink',
+            url: 'https://talent-competition-identity.azurewebsites.net/authentication/authentication/resendVerificationLink',
             type: 'POST',
             data: JSON.stringify(this.state.email),
             contentType: 'application/json',

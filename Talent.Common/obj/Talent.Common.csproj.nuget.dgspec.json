@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\Talent.Common\\Talent.Common.csproj": {}
+    "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1 - Azure\\Talent.Common\\Talent.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\Talent.Common\\Talent.Common.csproj": {
+    "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1 - Azure\\Talent.Common\\Talent.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\Talent.Common\\Talent.Common.csproj",
+        "projectUniqueName": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1 - Azure\\Talent.Common\\Talent.Common.csproj",
         "projectName": "Talent.Common",
-        "projectPath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\Talent.Common\\Talent.Common.csproj",
+        "projectPath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1 - Azure\\Talent.Common\\Talent.Common.csproj",
         "packagesPath": "C:\\Users\\rocke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\Talent.Common\\obj\\",
+        "outputPath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1 - Azure\\Talent.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

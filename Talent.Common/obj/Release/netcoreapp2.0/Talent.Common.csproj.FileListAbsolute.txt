@@ -7,3 +7,12 @@ C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Common\obj\Release\net
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.csproj.CoreCompileInputs.cache
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.dll
 C:\Users\rocke\Desktop\Projects\Talent-competition\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.pdb
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\bin\Release\netcoreapp2.0\Talent.Common.deps.json
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\bin\Release\netcoreapp2.0\Talent.Common.dll
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\bin\Release\netcoreapp2.0\Talent.Common.pdb
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.csprojAssemblyReference.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.AssemblyInfoInputs.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.AssemblyInfo.cs
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.csproj.CoreCompileInputs.cache
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.dll
+C:\Users\rocke\Desktop\Projects\Talent-competition-v1 - Azure\Talent.Common\obj\Release\netcoreapp2.0\Talent.Common.pdb

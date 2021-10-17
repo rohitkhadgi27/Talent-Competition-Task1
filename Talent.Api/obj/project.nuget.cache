@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R2VLQ5Cnka8RREB0GPNu5TQjOyn8N0v1awNZyLJrxssKpsIJJQE5erjO4oft+hoaLmmuYhEeh9AxpAAbuWDl/w==",
+  "dgSpecHash": "u1CNvq1h5cZkCyKze4ipVjz/KcWsfiRn6p8SLyIvciTSLZBhxZS2mlwhg+7l4PUGy7xjKAzORjKYuph6FWBJYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1\\Talent.Api\\Talent.Api.csproj",
+  "projectFilePath": "C:\\Users\\rocke\\Desktop\\Projects\\Talent-competition-v1 - Azure\\Talent.Api\\Talent.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rocke\\.nuget\\packages\\awssdk.core\\3.3.24\\awssdk.core.3.3.24.nupkg.sha512",
     "C:\\Users\\rocke\\.nuget\\packages\\awssdk.s3\\3.3.18.3\\awssdk.s3.3.3.18.3.nupkg.sha512",
